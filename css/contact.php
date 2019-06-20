@@ -1,23 +1,18 @@
 <?php
+
+    if (isset($_POST['submit'])) {
     $name = $_POST['name'];
-    $visitor_email = $_POST['email'];
-    $message = $_POST['message'];
-
-    $email_from = 'johnathanmg1478@gmail.com';
-
-    $email_subject = "From Website"
-    $email_body = "User Name: $name.\n"
-                    "User Email: $visitor_email.\n"
-                        "User Message: $message.\n";
-
-    $to = "Johnathanmg1478@gmail.com";
-
-    $headers = "From: $email_from \r\n";
+    $subjust = $_POST['subjust'];
+    $mailFrom = $_POST['mail'];
+    $mssage = $_POST['message'];
     
-    $headers .= "Reply-To: $visitor_email \r\n;"
+$mailTo = "JG.Mundt@yahoo.com";
+$headers = "From: ".$mailFrom;
+$txt = "You have received an e-mail from ".$name.".\n\n".$message;
 
-    mail($to,$email_subject,$email_body,$headers);
-
-    header("location: contact.html")
+    mail($mailto, $subject, $txt, $headers);
+    header("location: contact.php?mailsend");
+    
+    }
 
     ?>
