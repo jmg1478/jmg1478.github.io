@@ -91,3 +91,11 @@ body {
     display: table;
     clear: both;
   }
+  h2 {
+    font-size: 175%;
+    color: #4aaaa5,
+  }
+  p {
+    font-size: 125%;
+    color: #4aaaa5,
+  }

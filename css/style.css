@@ -13,6 +13,7 @@ width: 960px;
 }
 h3 {
   color: #4aaaa5;
+  font-size: 170%;
 }
 h1 {
   float: left;
@@ -20,7 +21,7 @@ h1 {
   font-size:225%;
   color: #ffffff;
   background-color: #4aaaa5;
-  width: 30%;
+  width: 27%;
   font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
 }
 .image {
