@@ -52,43 +52,43 @@ li a:hover {
 }
 
 h2 {
-font-size:225%;
+
+font-size: 225%;
+color: #ffffff;
 font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+
 }
 
 .allimg {
-  position: relative;
-  left: 15%;
-  right: 15%;
-  top: 80px;
-  width: 960px;
-  height: 450px;
-  border-radius: 5px;
+  position: center;
+  width: 700px;
+  height: 800px;
 }
-
 
 .img1 {
   float: left;
-  padding: 50px;
+  padding: 20px;
   top: 10%;
   left: 20%
   
 }
 .img2 {
-  padding: 50px;
+  padding: 20px;
   float: left;
   top: 10%;
   left: 20%
 }
+
+
 .img3 {
-  padding: 50px;
-  float: left;
+  padding: 20px;
+float: left;
   top: 10%;
   left: 20%
 }
 .img4 {
-  float: left;
-  padding: 50px;
+float: left;
+  padding: 20px;
   top: 10%;
   left: 20%
 }
