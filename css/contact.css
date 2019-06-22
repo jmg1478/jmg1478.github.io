@@ -1,23 +1,33 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: teal;
-    float: left;
+    background-color: #4aaaa5;
   }
   header {
-    padding: 30px;
+    position: relative;
+    padding: 0% 15% 0% 15%;
+    top: 0px;
     background-color: #ffffff;
     border-color: #cccccc;
    clear:both;
-   height: 10px;
-   width: 880px;
+   height: 54px;
+   width: 960px;
   }
   h1 {
-    margin-top: -15px;
     float: left;
-    font-size: 250%;
-    color: #ffffff;
+  padding: 10px 15px 10px 20px;
+  font-size:225%;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  width: 27%;
+  font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+  }
+  nav {
+    float: right;
+    margin-bottom: 1%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
     background-color: #4aaaa5;
-    font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
+    border-color: #dddddd;
+    
   }
 
   ul {
@@ -61,6 +71,12 @@ body {
     background-color: #45a049;
   }
   .container {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 80px;
+    width: 960px;
+    height: 450px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
