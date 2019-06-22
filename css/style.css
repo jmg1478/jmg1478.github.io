@@ -18,10 +18,10 @@ h3 {
 h1 {
   float: left;
   padding: 10px 15px 10px 20px;
+  width: 27%;
   font-size:225%;
   color: #ffffff;
   background-color: #4aaaa5;
-  width: 27%;
   font-family: 'font-family: 'Georgia', Times, Times New Roman, Serif;'
 }
 .image {
